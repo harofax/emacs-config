@@ -1,0 +1,16 @@
+org-appear: 19ea96e6e2 → 845be82b7a
+  845be82 remove dependency on disabling jit-lock-mode
+  55af465 readability fixes and version bump
+emacs-everywhere: d84b397c9a → 87eb6278e5
+  87eb627 Make defcustom of string prepended to Org buffer
+  9061edc Now available on Melpa, and fix homepage metadata
+  b735604 Don't specify --window with xdotool key
+  913ac9b Treat selections as UTF-8 by default
+  3c92b53 Refactor app state into a struct
+  270c702 Require cl-lib
+  78faac0 Move default hooks into defcustom, not add-hook
+  76a8727 Set default major-mode based on known capabilities
+  0a29462 Make checkdoc and byte-compiler happier
+  80517bb Define emacs-everywhere--dir before first usage
+  8ed52dd Make emacs-everywhere-insert-selection work on mac
+  7deef96 Readme: Update info, now available in Doom module
